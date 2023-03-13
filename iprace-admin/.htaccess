@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^/(index\.php|assets/|humans\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+#<RequireAll>
+#    Require ip 78.45.134.157
+#</RequireAll>

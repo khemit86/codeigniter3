@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /
+Disallow: /application/
+Disallow: /assets/
+Disallow: /iprace-admin/
+Disallow: /node_servers/
+Disallow: /system/
+Disallow: /temp/
+Disallow: /users/
+Disallow: /404.php
+Disallow: /index.php
+Disallow: /LICENSE
+Disallow: /license.txt
+Disallow: /README.md

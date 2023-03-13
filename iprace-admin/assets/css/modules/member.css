@@ -1,0 +1,267 @@
+.srchName .tySrch {
+    padding-right: 15px;
+}
+.srchName .topSearch {
+    margin-top: -9px;
+}
+.topSearch .chkAdjust {
+    margin-top: 5px;
+    display: inline-block;
+}
+.topSearch .textGap {
+    margin-left: 5px !important;
+}
+.srchName .typeSrchLabel {
+    margin: 0 10px;
+}
+.topSearch .chkAdjust {
+    margin-top: 5px;
+    display: inline-block;
+}
+.marginBtm0 {
+  margin-bottom: 0 !important;
+}
+a {
+    outline: none !important;
+}
+.receive_notification .rcv_notfy_btn {
+  text-decoration: none !important;
+}
+.proDtls {
+    padding-bottom: 10px;
+    border: 0;
+    margin: 0;
+}
+.proDtls::after {
+    content: '';
+    border-bottom: 1px solid #cecece;
+    width: 96%;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+.proDtls .pDtls {
+    margin: 0;
+}
+.proDtls .fbSelect {
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #cecece;
+}
+fProfessionallr:first-child {
+    width: 98px;
+}
+.fProfessionallr:first-child, .fProfessionallr:nth-child(2), .fProfessionallr:nth-child(3), .fProfessionallr:nth-child(5), .fProfessionallr:nth-child(6) {
+    margin: 0 9.4% 5px 0;
+    margin: 0 11.4% 5px 0;
+    float: left;
+}
+.fProfessionallr {
+    display: inline-block;
+    margin: 0 0 5px 0;
+}
+.proDtls .fbSelect select {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    padding: 6px 30px 6px 0;
+}
+.proDtls .fbSelect select option {
+    padding-left: 0;
+}
+.select_full_width {
+    display: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #fff;
+    border-radius: 4px;
+    color: #010101;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 8px;
+    box-shadow: 0 0 8px 2px #c5c5c5;
+}
+.select_flex_width {
+    display: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #fff;
+    border-radius: 4px;
+    color: #010101;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    white-space: nowrap;
+    margin-top: 8px;
+    box-shadow: 0 0 8px 2px #c5c5c5;
+}
+.select_full_width .drpChk, .select_flex_width .drpChk {
+    margin-bottom: 5px;
+}
+#checkboxes label, #checkboxes1 label, #checkboxes2 label, #checkboxes3 label, #checkboxes4 label, #checkboxes5 label, #checkboxes6 label, #checkboxes7 label, #checkboxes8 label {
+    display: inline;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+#checkboxes label input:checked, #checkboxes1 label input:checked, #checkboxes2 label input:checked, #checkboxes3 label input:checked {
+    color: #ccc;
+}
+#checkboxes label input, #checkboxes1 label input, #checkboxes2 label input, #checkboxes3 label input, #checkboxes4 label input, #checkboxes5 label input, #checkboxes6 label input, #checkboxes7 label input, #checkboxes8 label input {
+    margin-right: 5px;
+}
+#checkboxes .checkmark, #checkboxes1 .checkmark, #checkboxes2 .checkmark, #checkboxes3 .checkmark, #checkboxes4 .checkmark, #checkboxes5 .checkmark, #checkboxes6 .checkmark, #checkboxes7 .checkmark, #checkboxes8 .checkmark {
+    height: 15px;
+    width: 15px;
+    top: 5px;
+}
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#checkboxes .default_checkbox .checkmark::after, #checkboxes1 .default_checkbox .checkmark::after, #checkboxes2 .default_checkbox .checkmark::after, #checkboxes3 .default_checkbox .checkmark::after, #checkboxes4 .default_checkbox .checkmark::after, #checkboxes5 .default_checkbox .checkmark::after, #checkboxes6 .default_checkbox .checkmark::after, #checkboxes7 .default_checkbox .checkmark::after, #checkboxes8 .default_checkbox .checkmark::after {
+    left: 4px;
+    top: 2px;
+    width: 5px;
+    height: 8px;
+}
+.default_checkbox .checkmark::after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.default_checkbox .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.drpChk small {
+    font-size: 15px;
+    color: #010101;
+    margin-left: 0;
+    word-wrap: break-word;
+}
+.boldCat {
+    font-weight: 600;
+}
+.fProfessionallr:nth-child(2) {
+    width: 187px;
+}
+.fProfessionallr:first-child, .fProfessionallr:nth-child(2), .fProfessionallr:nth-child(3), .fProfessionallr:nth-child(5), .fProfessionallr:nth-child(6) {
+    margin: 0 9.4% 5px 0;
+    float: left;
+}
+.defaultTag {
+    margin: 3px 4px 0 0;
+    overflow: hidden;
+}
+.defaultTag label {
+    margin: 0;
+}
+.filter_wrapper label {
+    font-size: 0;
+    display: inline;
+}
+.defaultTag span {
+    padding: 4px 8px;
+    display: inline-block;
+    word-break: break-word;
+    font-family: arial;
+    height: 25px;
+    min-height: 26px;
+}
+.tagFirst {
+    background-color: #005e8c;
+}
+.tagFirst {
+    color: #fff;
+    background-color: #007bff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 1px;
+    min-height: 26px;
+}
+.defaultTag small {
+    padding: 4px 8px;
+    display: inline-block !important;
+    font-family: arial;
+    min-height: 26px;
+}
+.tagSecond {
+    color: #fff;
+    font-size: 14px;
+    background-color: #1bc27a;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    height: 25px;
+    min-height: 26px;
+}
+.defaultTag label small i {
+    margin-left: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.clear_all_filters {
+    top: -6px !important;
+    padding: 0 8px !important;
+    height: 26px;
+    font-size: 12px !important;
+    position: relative;
+    min-height: 26.5px;
+}
+.pSelect {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+}
+.pSelect select {
+    line-height: normal;
+    height: 38px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    width: 200px;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    border: 1px solid #2196F3;
+    background: transparent;
+    color: #010101;
+    padding: 8px 20px 7px 10px;
+    margin: 0;
+    line-height: normal;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.pSelect:after{
+    content:"";
+    position: absolute;
+    z-index: 2;
+    right: 8px;
+    top: 20px;
+    margin-top: -3px;
+    height: 0;
+    width: 0;
+    border-top: 6px solid #2196F3;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    pointer-events: none;
+}
